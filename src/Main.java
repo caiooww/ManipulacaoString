@@ -9,6 +9,9 @@ public class Main {
         String s05 = original.substring(2, 9);
         String s06 = original.replace('a', 'x');
         String s07 = original.replace("abc", "xy");
+        int i = original.indexOf("bc");
+        int j = original.lastIndexOf("bc");
+
 
         System.out.println("Original: -" + original + "-");
         System.out.println("toLowerCase: -" + s01 + "-");
@@ -18,7 +21,8 @@ public class Main {
         System.out.println("substring(2, 9): -" + s05 + "-");
         System.out.println("replace('a', 'x'): -" + s06 + "-");
         System.out.println("replace(\"abc\", \"xy\"): -" + s07 + "-");
-
+        System.out.println("Index of 'bc': " + i);
+        System.out.println("Last index of 'bc': " + j);
 
     }
 
