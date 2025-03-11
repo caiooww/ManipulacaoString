@@ -13,6 +13,14 @@ public class Main {
         int j = original.lastIndexOf("bc");
 
 
+        String s = "potato apple lemon";
+        String[] vect = s.split(" ");
+        String word1 = vect[0];
+        String word2 = vect[1];
+        String word3 = vect[2];
+
+
+
         System.out.println("Original: -" + original + "-");
         System.out.println("toLowerCase: -" + s01 + "-");
         System.out.println("toUpperCase: -" + s02 + "-");
@@ -23,6 +31,9 @@ public class Main {
         System.out.println("replace(\"abc\", \"xy\"): -" + s07 + "-");
         System.out.println("Index of 'bc': " + i);
         System.out.println("Last index of 'bc': " + j);
+        System.out.println("word1: " + word1);
+        System.out.println("word2: " + word2);
+        System.out.println("word3: " + word3);
 
     }
 
